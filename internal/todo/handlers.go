@@ -5,7 +5,7 @@ import (
     "net/http"
 
     "github.com/gocql/gocql"
-    "github.com/your-username/todo-api/config"
+    "github.com/prateekaphale/todo-api/config"
 )
 
 func CreateTodoHandler(w http.ResponseWriter, r *http.Request) {
